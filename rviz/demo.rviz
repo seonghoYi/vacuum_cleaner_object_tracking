@@ -1,0 +1,998 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 70
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+      Splitter Ratio: 0.5
+    Tree Height: 371
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: PointCloud2
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: PointCloud2
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /camera/depth/color/points
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 1
+      Frames:
+        All Enabled: false
+        bed75:
+          Value: true
+        bed76:
+          Value: true
+        bed77:
+          Value: true
+        book30:
+          Value: true
+        book31:
+          Value: true
+        book75:
+          Value: true
+        bottle0:
+          Value: true
+        bottle129:
+          Value: true
+        bottle164:
+          Value: true
+        bottle165:
+          Value: true
+        bottle31:
+          Value: true
+        bottle33:
+          Value: true
+        bottle35:
+          Value: true
+        bottle36:
+          Value: true
+        bottle65:
+          Value: true
+        camera_accel_frame:
+          Value: false
+        camera_accel_optical_frame:
+          Value: false
+        camera_aligned_depth_to_color_frame:
+          Value: false
+        camera_color_frame:
+          Value: false
+        camera_color_optical_frame:
+          Value: false
+        camera_depth_frame:
+          Value: false
+        camera_depth_optical_frame:
+          Value: false
+        camera_gyro_frame:
+          Value: false
+        camera_imu_optical_frame:
+          Value: false
+        camera_link:
+          Value: true
+        chair0:
+          Value: true
+        chair150:
+          Value: true
+        chair151:
+          Value: true
+        chair152:
+          Value: true
+        chair153:
+          Value: true
+        chair154:
+          Value: true
+        chair165:
+          Value: true
+        chair20:
+          Value: true
+        chair21:
+          Value: true
+        chair29:
+          Value: true
+        chair31:
+          Value: true
+        chair35:
+          Value: true
+        chair38:
+          Value: true
+        chair39:
+          Value: true
+        chair40:
+          Value: true
+        chair41:
+          Value: true
+        chair42:
+          Value: true
+        chair43:
+          Value: true
+        chair44:
+          Value: true
+        chair45:
+          Value: true
+        chair46:
+          Value: true
+        chair47:
+          Value: true
+        chair48:
+          Value: true
+        chair49:
+          Value: true
+        chair50:
+          Value: true
+        chair52:
+          Value: true
+        chair54:
+          Value: true
+        chair57:
+          Value: true
+        chair59:
+          Value: true
+        chair60:
+          Value: true
+        chair61:
+          Value: true
+        chair65:
+          Value: true
+        chair69:
+          Value: true
+        chair71:
+          Value: true
+        chair75:
+          Value: true
+        chair76:
+          Value: true
+        chair77:
+          Value: true
+        chair78:
+          Value: true
+        chair79:
+          Value: true
+        clock0:
+          Value: true
+        clock19:
+          Value: true
+        clock27:
+          Value: true
+        clock57:
+          Value: true
+        cup43:
+          Value: true
+        keyboard34:
+          Value: true
+        laptop31:
+          Value: true
+        laptop34:
+          Value: true
+        person0:
+          Value: true
+        person100:
+          Value: true
+        person101:
+          Value: true
+        person102:
+          Value: true
+        person103:
+          Value: true
+        person104:
+          Value: true
+        person105:
+          Value: true
+        person106:
+          Value: true
+        person107:
+          Value: true
+        person108:
+          Value: true
+        person109:
+          Value: true
+        person110:
+          Value: true
+        person111:
+          Value: true
+        person112:
+          Value: true
+        person113:
+          Value: true
+        person114:
+          Value: true
+        person115:
+          Value: true
+        person116:
+          Value: true
+        person117:
+          Value: true
+        person118:
+          Value: true
+        person119:
+          Value: true
+        person120:
+          Value: true
+        person121:
+          Value: true
+        person122:
+          Value: true
+        person123:
+          Value: true
+        person124:
+          Value: true
+        person125:
+          Value: true
+        person126:
+          Value: true
+        person127:
+          Value: true
+        person128:
+          Value: true
+        person129:
+          Value: true
+        person130:
+          Value: true
+        person131:
+          Value: true
+        person132:
+          Value: true
+        person133:
+          Value: true
+        person134:
+          Value: true
+        person135:
+          Value: true
+        person136:
+          Value: true
+        person138:
+          Value: true
+        person139:
+          Value: true
+        person140:
+          Value: true
+        person142:
+          Value: true
+        person143:
+          Value: true
+        person144:
+          Value: true
+        person145:
+          Value: true
+        person146:
+          Value: true
+        person147:
+          Value: true
+        person148:
+          Value: true
+        person149:
+          Value: true
+        person15:
+          Value: true
+        person150:
+          Value: true
+        person151:
+          Value: true
+        person152:
+          Value: true
+        person153:
+          Value: true
+        person154:
+          Value: true
+        person155:
+          Value: true
+        person156:
+          Value: true
+        person157:
+          Value: true
+        person158:
+          Value: true
+        person16:
+          Value: true
+        person162:
+          Value: true
+        person163:
+          Value: true
+        person18:
+          Value: true
+        person20:
+          Value: true
+        person21:
+          Value: true
+        person22:
+          Value: true
+        person23:
+          Value: true
+        person24:
+          Value: true
+        person25:
+          Value: true
+        person26:
+          Value: true
+        person27:
+          Value: true
+        person28:
+          Value: true
+        person29:
+          Value: true
+        person30:
+          Value: true
+        person31:
+          Value: true
+        person32:
+          Value: true
+        person33:
+          Value: true
+        person36:
+          Value: true
+        person37:
+          Value: true
+        person40:
+          Value: true
+        person41:
+          Value: true
+        person42:
+          Value: true
+        person43:
+          Value: true
+        person44:
+          Value: true
+        person45:
+          Value: true
+        person46:
+          Value: true
+        person47:
+          Value: true
+        person48:
+          Value: true
+        person49:
+          Value: true
+        person50:
+          Value: true
+        person51:
+          Value: true
+        person52:
+          Value: true
+        person53:
+          Value: true
+        person54:
+          Value: true
+        person55:
+          Value: true
+        person56:
+          Value: true
+        person57:
+          Value: true
+        person58:
+          Value: true
+        person59:
+          Value: true
+        person60:
+          Value: true
+        person62:
+          Value: true
+        person64:
+          Value: true
+        person65:
+          Value: true
+        person67:
+          Value: true
+        person70:
+          Value: true
+        person71:
+          Value: true
+        person72:
+          Value: true
+        person74:
+          Value: true
+        person75:
+          Value: true
+        person76:
+          Value: true
+        person78:
+          Value: true
+        person79:
+          Value: true
+        person80:
+          Value: true
+        person81:
+          Value: true
+        person82:
+          Value: true
+        person83:
+          Value: true
+        person84:
+          Value: true
+        person86:
+          Value: true
+        person87:
+          Value: true
+        person88:
+          Value: true
+        person89:
+          Value: true
+        person90:
+          Value: true
+        person91:
+          Value: true
+        person92:
+          Value: true
+        person94:
+          Value: true
+        person95:
+          Value: true
+        person96:
+          Value: true
+        person97:
+          Value: true
+        person98:
+          Value: true
+        person99:
+          Value: true
+        sofa75:
+          Value: true
+        sofa76:
+          Value: true
+        sofa77:
+          Value: true
+        umbrella50:
+          Value: true
+      Marker Alpha: 1
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        camera_link:
+          camera_accel_frame:
+            camera_accel_optical_frame:
+              {}
+          camera_aligned_depth_to_color_frame:
+            camera_color_optical_frame:
+              {}
+          camera_color_frame:
+            bed75:
+              {}
+            bed76:
+              {}
+            bed77:
+              {}
+            book30:
+              {}
+            book31:
+              {}
+            book75:
+              {}
+            bottle0:
+              {}
+            bottle129:
+              {}
+            bottle164:
+              {}
+            bottle165:
+              {}
+            bottle31:
+              {}
+            bottle33:
+              {}
+            bottle35:
+              {}
+            bottle36:
+              {}
+            bottle65:
+              {}
+            chair0:
+              {}
+            chair150:
+              {}
+            chair151:
+              {}
+            chair152:
+              {}
+            chair153:
+              {}
+            chair154:
+              {}
+            chair165:
+              {}
+            chair20:
+              {}
+            chair21:
+              {}
+            chair29:
+              {}
+            chair31:
+              {}
+            chair35:
+              {}
+            chair38:
+              {}
+            chair39:
+              {}
+            chair40:
+              {}
+            chair41:
+              {}
+            chair42:
+              {}
+            chair43:
+              {}
+            chair44:
+              {}
+            chair45:
+              {}
+            chair46:
+              {}
+            chair47:
+              {}
+            chair48:
+              {}
+            chair49:
+              {}
+            chair50:
+              {}
+            chair52:
+              {}
+            chair54:
+              {}
+            chair57:
+              {}
+            chair59:
+              {}
+            chair60:
+              {}
+            chair61:
+              {}
+            chair65:
+              {}
+            chair69:
+              {}
+            chair71:
+              {}
+            chair75:
+              {}
+            chair76:
+              {}
+            chair77:
+              {}
+            chair78:
+              {}
+            chair79:
+              {}
+            clock0:
+              {}
+            clock19:
+              {}
+            clock27:
+              {}
+            clock57:
+              {}
+            cup43:
+              {}
+            keyboard34:
+              {}
+            laptop31:
+              {}
+            laptop34:
+              {}
+            person0:
+              {}
+            person100:
+              {}
+            person101:
+              {}
+            person102:
+              {}
+            person103:
+              {}
+            person104:
+              {}
+            person105:
+              {}
+            person106:
+              {}
+            person107:
+              {}
+            person108:
+              {}
+            person109:
+              {}
+            person110:
+              {}
+            person111:
+              {}
+            person112:
+              {}
+            person113:
+              {}
+            person114:
+              {}
+            person115:
+              {}
+            person116:
+              {}
+            person117:
+              {}
+            person118:
+              {}
+            person119:
+              {}
+            person120:
+              {}
+            person121:
+              {}
+            person122:
+              {}
+            person123:
+              {}
+            person124:
+              {}
+            person125:
+              {}
+            person126:
+              {}
+            person127:
+              {}
+            person128:
+              {}
+            person129:
+              {}
+            person130:
+              {}
+            person131:
+              {}
+            person132:
+              {}
+            person133:
+              {}
+            person134:
+              {}
+            person135:
+              {}
+            person136:
+              {}
+            person138:
+              {}
+            person139:
+              {}
+            person140:
+              {}
+            person142:
+              {}
+            person143:
+              {}
+            person144:
+              {}
+            person145:
+              {}
+            person146:
+              {}
+            person147:
+              {}
+            person148:
+              {}
+            person149:
+              {}
+            person15:
+              {}
+            person150:
+              {}
+            person151:
+              {}
+            person152:
+              {}
+            person153:
+              {}
+            person154:
+              {}
+            person155:
+              {}
+            person156:
+              {}
+            person157:
+              {}
+            person158:
+              {}
+            person16:
+              {}
+            person162:
+              {}
+            person163:
+              {}
+            person18:
+              {}
+            person20:
+              {}
+            person21:
+              {}
+            person22:
+              {}
+            person23:
+              {}
+            person24:
+              {}
+            person25:
+              {}
+            person26:
+              {}
+            person27:
+              {}
+            person28:
+              {}
+            person29:
+              {}
+            person30:
+              {}
+            person31:
+              {}
+            person32:
+              {}
+            person33:
+              {}
+            person36:
+              {}
+            person37:
+              {}
+            person40:
+              {}
+            person41:
+              {}
+            person42:
+              {}
+            person43:
+              {}
+            person44:
+              {}
+            person45:
+              {}
+            person46:
+              {}
+            person47:
+              {}
+            person48:
+              {}
+            person49:
+              {}
+            person50:
+              {}
+            person51:
+              {}
+            person52:
+              {}
+            person53:
+              {}
+            person54:
+              {}
+            person55:
+              {}
+            person56:
+              {}
+            person57:
+              {}
+            person58:
+              {}
+            person59:
+              {}
+            person60:
+              {}
+            person62:
+              {}
+            person64:
+              {}
+            person65:
+              {}
+            person67:
+              {}
+            person70:
+              {}
+            person71:
+              {}
+            person72:
+              {}
+            person74:
+              {}
+            person75:
+              {}
+            person76:
+              {}
+            person78:
+              {}
+            person79:
+              {}
+            person80:
+              {}
+            person81:
+              {}
+            person82:
+              {}
+            person83:
+              {}
+            person84:
+              {}
+            person86:
+              {}
+            person87:
+              {}
+            person88:
+              {}
+            person89:
+              {}
+            person90:
+              {}
+            person91:
+              {}
+            person92:
+              {}
+            person94:
+              {}
+            person95:
+              {}
+            person96:
+              {}
+            person97:
+              {}
+            person98:
+              {}
+            person99:
+              {}
+            sofa75:
+              {}
+            sofa76:
+              {}
+            sofa77:
+              {}
+            umbrella50:
+              {}
+          camera_depth_frame:
+            camera_depth_optical_frame:
+              {}
+          camera_gyro_frame:
+            camera_imu_optical_frame:
+              {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz/Camera
+      Enabled: true
+      Image Rendering: background and overlay
+      Image Topic: /camera/color/image_raw
+      Name: Camera
+      Overlay Alpha: 0.5
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: true
+      Visibility:
+        Grid: true
+        PointCloud2: true
+        TF: true
+        Value: false
+      Zoom Factor: 1
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: camera_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 3.743069887161255
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Field of View: 0.7853981852531433
+      Focal Point:
+        X: 0.017162557691335678
+        Y: -0.3515465259552002
+        Z: 0.32138508558273315
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.3653978705406189
+      Target Frame: <Fixed Frame>
+      Yaw: 2.680393934249878
+    Saved: ~
+Window Geometry:
+  Camera:
+    collapsed: false
+  Displays:
+    collapsed: false
+  Height: 1016
+  Hide Left Dock: false
+  Hide Right Dock: true
+  QMainWindow State: 000000ff00000000fd00000004000000000000028e0000035afc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073000000003d000000c9000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000c00430061006d006500720061010000003d0000035a0000001600ffffff000000010000010f0000035afc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000003d0000035a000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007380000003efc0100000002fb0000000800540069006d0065010000000000000738000002eb00fffffffb0000000800540069006d00650100000000000004500000000000000000000004a40000035a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: true
+  Width: 1848
+  X: 72
+  Y: 27
