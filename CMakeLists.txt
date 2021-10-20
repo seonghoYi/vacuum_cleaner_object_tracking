@@ -12,12 +12,13 @@ find_package(OpenCV REQUIRED)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
+  rospy
   std_msgs
   cv_bridge
   image_transport
-  image_geometry
+  #image_geometry
   darknet_ros_msgs
-  object_detection_msgs
+  vacuum_cleaner_msgs
   tf
   tf2
   )
@@ -132,12 +133,9 @@ include_directories(
 )
 
 add_executable(ObjectTracker src/ObjectTracker.cpp)
-#add_executable(BoundingBoxSrv src/BoundingBoxSrv.cpp)
 target_link_libraries(ObjectTracker ${catkin_LIBRARIES} ${OpenCV_INCLUDE_DIRS})
-#target_link_libraries(BoundingBoxSrv ${catkin_LIBRARIES} ${OpenCV_INCLUDE_DIRS})
 add_dependencies(ObjectTracker ${catkin_EXPORTED_TARGETS})
-#add_dependencies(BoundingBoxSrv ${catkin_EXPORTED_TARGETS})
-#add_dependencies(ObjectTracker darknet_ros_generate_messages_cpp)
+
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/object_tracking_darknet.cpp
